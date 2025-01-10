@@ -1,0 +1,39 @@
+#projects{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        overflow: hidden;
+}
+
+.slider{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        gap: 30px;
+        scrollbar-width: none;
+        padding: 20px;
+
+
+
+}
+#para{
+        font-size: 4vmax;
+        background:linear-gradient(to right,rgb(205, 66, 198),white);
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+}
+
+.slider::-webkit-scrollbar {
+        display: none;
+      }
+
+.slider{
+        scrollbar-width: none;
+      }
